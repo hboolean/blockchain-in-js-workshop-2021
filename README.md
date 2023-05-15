@@ -21,7 +21,7 @@ https://github.com/caosbad/blockchain-in-js-workshop-2021(示例用，请根据�
 
 ### 代码 commint 地址
 
-https://github.com/CUITBlockchain/blockchain-in-js-workshop-2021/commit/25f3a0d83a9fff2b4514c5503f470df939d0c2af
+https://github.com/hboolean/blockchain-in-js-workshop-2021/commit/68e0134790e3f157e1379ae23e8e8204d5b5f398
 
 
 ### 代码截图

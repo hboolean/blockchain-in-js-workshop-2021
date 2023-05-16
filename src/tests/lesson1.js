@@ -17,7 +17,7 @@ const main = () => {
     blockchain,
     genesisBlock.hash,
     1,
-    sha256(new Date().getTime().toString()).toString(),
+    "new"+sha256(new Date().getTime().toString()).toString(),
   )
 
   blockchain.blocks[newBlock.hash] = newBlock
@@ -26,14 +26,14 @@ const main = () => {
     blockchain,
     newBlock.hash,
     2,
-    sha256(new Date().getTime().toString()).toString(),
+    "next"+sha256(new Date().getTime().toString()).toString(),
   )
 
   var nextCompetitionBlock = new Block(
     blockchain,
     newBlock.hash,
     2,
-    sha256((new Date().getTime() + 1).toString()).toString(),
+    "nextC"+sha256((new Date().getTime() + 1).toString()).toString(),
   )
 
   // 添加两个区块高度为 2  的的竞争区块
@@ -48,7 +48,7 @@ const main = () => {
     blockchain,
     nextCompetitionBlock.hash,
     3,
-    sha256(new Date().getTime().toString()).toString(),
+    "third"+sha256(new Date().getTime().toString()).toString(),
   )
 
   blockchain.blocks[thirdBlock.hash] = thirdBlock

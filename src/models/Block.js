@@ -9,4 +9,4 @@ class Block {
   }
 }
 
-export default Block
+export default Block;

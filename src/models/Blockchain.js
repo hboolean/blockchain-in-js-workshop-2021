@@ -33,4 +33,4 @@ class Blockchain {
   }
 }
 
-export default Blockchain
+export default Blockchain;

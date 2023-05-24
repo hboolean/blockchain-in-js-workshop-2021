@@ -14,9 +14,10 @@ const main = () => {
 
   // 构建区块
   var newBlock = new Block(
-    blockchain,
-    genesisBlock.hash,
-    1,
+    blockchain,//该区块所属的区块链名
+    genesisBlock.hash,//是该区块的父区块哈希值，即创世区块的哈希值
+    1,//该区块高度应该为1
+    //表示该区块的哈希值，它是一个字符串，由字符串"new"和对当前时间戳进行哈希后的结果组成。
     "new"+sha256(new Date().getTime().toString()).toString(),
   )
 
